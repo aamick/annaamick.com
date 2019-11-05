@@ -21,18 +21,6 @@ const useStyles = makeStyles({
     height: 48,
     padding: '0 30px',
     boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)'
-  },
-  label: {
-    textTransform: 'capitalize'
-  },
-  name: {
-    webkitTextStroke: '1px #445963',
-    color: 'white',
-    textShadow: `3px 3px 0 #445963,
-     -1px -1px 0 #445963,  
-      1px -1px 0 #445963,
-      -1px 1px 0 #445963,
-       1px 1px 0 #445963`
   }
 })
 
@@ -56,13 +44,21 @@ const ContactBlurb = ({ startIcon, text, children }) => {
 }
 
 export default function ContactInfo() {
-  const classes = useStyles()
-
   return (
     <Layout pageTitle="Contact Information">
       <Container maxWidth="lg">
         <Box p={4} my={10}>
           <Box display="flex" color="common.white" flexWrap="wrap" justifyContent="space-around">
+            <Box display="flex" justifyContent="center" alignItems="center">
+              <Box minWidth={200}>
+                <img
+                  src="/photos/face-pic.jpg"
+                  border={8}
+                  alt="foreground"
+                  style={{ width: '100%', borderRadius: 4 }}
+                />
+              </Box>
+            </Box>
             <Box minWidth={300} p={2}>
               <Box
                 textAlign="center"
@@ -89,17 +85,6 @@ export default function ContactInfo() {
                     </Link>
                   </ContactBlurb>
                 </Box>
-              </Box>
-            </Box>
-            <Box display="flex" justifyContent="center" alignItems="center">
-              <Box minWidth={200}>
-                <img
-                  src="/photos/face-pic.jpg"
-                  border={8}
-                  className={classes.facepic}
-                  alt="foreground"
-                  style={{ width: '100%' }}
-                />
               </Box>
             </Box>
           </Box>
