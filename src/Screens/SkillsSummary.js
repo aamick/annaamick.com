@@ -48,6 +48,8 @@ export default function SkillsSummary() {
                   <hr />
                   Self-motivated as well as a team player, having exceptional organizational and
                   strong written/verbal communication skills
+                  <hr />
+                  Experienced in software testing and documenting
                 </CardContent>
               </Box>
             </CardActionArea>

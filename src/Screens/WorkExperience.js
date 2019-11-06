@@ -23,7 +23,7 @@ export default () => {
       </Container>
       <Container maxWidth="md">
         <Box pt={2} px={1} display="flex" justifyContent="center" textAlign="center">
-          <MediaCard image="/photos/PhantomIBridge.jpg" title="Building Contractor">
+          <MediaCard image="/photos/PhantomIBridge.jpg" title="Contractor">
             <hr />
             Self-Employed, Punta Gorda, FL <br />
             January 2017 - September 2018 <hr />

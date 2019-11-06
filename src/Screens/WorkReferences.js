@@ -55,13 +55,13 @@ export default function WorkReferences() {
                   <br />
                   ~Matt Barnes, President of Public Servants' Prayer
                   <hr />
-                  "I recently had the opportunity to work with Anna Amick, a Junior Software
-                  Developer, as she was helping to build our redeveloped and redesigned website
-                  (thepsp.org). She is driven, hardworking, diligent, and competent. I also found
-                  her ability to stay on task refreshing. In a world of distractions and other
-                  opportunities, it's helpful to work with someone so dedicated to whatever they are
-                  working on at that time."
-                  <br />
+                  "I had the pleasure of actively tutoring Anna in Javascript, React, CSS and HTML.
+                  She is energetic and eager to learn. Anna values quality in everything she
+                  produces, not content with good enough. She doesn't give up and works tirelessly
+                  until she understands the right way to do something. Anna also excels at software
+                  testing, finding edge cases and documenting them. She is well on the road to
+                  becoming a top shelf software engineer. Consider her if you are looking to fill an
+                  entry-level position with someone who is positive, open and easy to teach." <br />
                   ~Nathan Amick, Senior Software Engineer
                 </CardContent>
               </Box>
