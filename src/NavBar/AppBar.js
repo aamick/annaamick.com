@@ -9,7 +9,8 @@ import { Typography } from '@material-ui/core'
 
 const useStyles = makeStyles(theme => ({
   AppBar: {
-    backgroundColor: theme.palette.background.default
+    backgroundColor: theme.palette.background.default,
+    zIndex: theme.zIndex.drawer + 1000
   }
 }))
 
