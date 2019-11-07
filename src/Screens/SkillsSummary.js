@@ -44,7 +44,7 @@ export default function SkillsSummary() {
                   <hr />
                   Proficient with Github, Git and VS Code
                   <hr />
-                  Possess excellent analytical thinking, decision-making, and problem-solving skills
+                  Excellent analytical thinking, decision-making, and problem-solving skills
                   <hr />
                   Self-motivated as well as a team player, having exceptional organizational and
                   strong written/verbal communication skills
